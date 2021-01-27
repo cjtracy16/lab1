@@ -1,197 +1,181 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    color: rgb(46, 97, 142);
-    background-color: white;
-}
-
-li {
-    font-weight: normal;
-}
-
-ul {
-    font-size: 14px;
-    font-style: italic;
-}
-
-.underline {
-    text-decoration: underline;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-p {
-    text-align: justify;
-}
-
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: underline;
-    text-align: center;
-    font-size: 30px;
-}
-
-img {
-    justify-self: center;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-
-/* Body Style */
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-    text-align: center;
-}
-
-
-/* Style the header */
-
-.header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-    color: rgba(40, 77, 110, 0.918);
-    font-size: 35px;
-    background-image: url("https://www.wallpapertip.com/wmimgs/41-417664_shiny-modern-background-wallpaper-in-only-two-colors.jpg");
-    background-size: cover;
-    background-repeat: inherit;
-    background-position: center;
-}
-
-
-/* Create three equal columns that floats next to each other */
-
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 400px;
-}
-
-
-/* Clear floats after the columns */
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-/* Style the footer */
-
-#footer {
-    background-color: white;
-    border-top: 5px thick black;
-    text-align: center;
-    padding: 10px;
-    text-align: center;
-    margin-top: 10px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(156, 182, 204);
-    margin-bottom: 10px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-a {
-    color: rgba(40, 77, 110, 0.918);
-    text-decoration: none;
-    font-size: 18px;
-    font-style: normal;
-    background-color: rgb(156, 182, 204);
-}
-
-.intext {
-    background-color: none;
-}
-
-li {
-    display: inline;
-    float: left;
-    background-color: rgb(156, 182, 204);
-    border-right: 1px solid white;
-}
-
-li a {
-    display: block;
-    padding: 8px;
-    background-color: rgb(156, 182, 204);
-}
-
-li a:hover:not(.active) {
-    background-color: white;
-}
-
-li:last-child {
-    border-right: none;
-}
-
-.active {
-    background-color: white;
-}
-
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-
-@media (max-width: 600px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: rgb(46, 97, 142);
+        background-color: white;
+    }
+    
+    ul {
+        font-size: 14px;
+        font-style: italic;
+    }
+    
+    .underline {
+        text-decoration: underline;
+    }
+    
+    .bold {
+        font-weight: bold;
+    }
+    
+    p {
+        text-align: justify;
+    }
+    
+    h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: underline;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    img {
+        justify-self: center;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    /* Body Style */
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    p {
+        text-align: center;
+    }
+    /* Style the header */
+    
+    .header {
+        background-color: #f1f1f1;
+        padding: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+        color: rgba(40, 77, 110, 0.918);
+        font-size: 35px;
+        background-image: url("https://www.wallpapertip.com/wmimgs/41-417664_shiny-modern-background-wallpaper-in-only-two-colors.jpg");
+        background-size: cover;
+        background-repeat: inherit;
+        background-position: center;
+    }
+    /* Create three equal columns that floats next to each other */
+    
     .column {
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+        height: 400px;
+    }
+    /* Clear floats after the columns */
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* Style the footer */
+    
+    #footer {
+        background-color: white;
+        border-top: 5px thick black;
+        text-align: center;
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(156, 182, 204);
+        margin-bottom: 10px;
+        position: fixed;
+        top: 0;
         width: 100%;
     }
-}
-
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(156, 182, 204);
-}
-
-ul.topnav li {
-    float: left;
-}
-
-ul.topnav li a {
-    display: block;
-    color: rgba(40, 77, 110, 0.918);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-ul.topnav li a:hover:not(.active) {
-    background-color: white;
-}
-
-ul.topnav li a.active {
-    background-color: white;
-}
-
-ul.topnav li.right {
-    float: right;
-}
-
-@media screen and (max-width: 600px) {
-    ul.topnav li.right,
-    ul.topnav li {
-        float: none;
+    
+    a {
+        color: rgba(40, 77, 110, 0.918);
+        text-decoration: none;
+        font-size: 18px;
+        font-style: normal;
+        background-color: rgb(156, 182, 204);
     }
-}
+    
+    .intext {
+        background-color: none;
+    }
+    
+    li {
+        display: inline;
+        float: left;
+        background-color: rgb(156, 182, 204);
+        border-right: 1px solid white;
+    }
+    
+    li a {
+        display: block;
+        padding: 8px;
+        background-color: rgb(156, 182, 204);
+    }
+    
+    li a:hover:not(.active) {
+        background-color: white;
+    }
+    
+    li:last-child {
+        border-right: none;
+    }
+    
+    .active {
+        background-color: white;
+    }
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    
+    @media (max-width: 600px) {
+        .column {
+            width: 100%;
+        }
+    }
+    
+    ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(156, 182, 204);
+    }
+    
+    ul.topnav li {
+        float: left;
+    }
+    
+    ul.topnav li a {
+        display: block;
+        color: rgba(40, 77, 110, 0.918);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    ul.topnav li a:hover:not(.active) {
+        background-color: white;
+    }
+    
+    ul.topnav li a.active {
+        background-color: white;
+    }
+    
+    ul.topnav li.right {
+        float: right;
+    }
+    
+    @media screen and (max-width: 600px) {
+        ul.topnav li.right,
+        ul.topnav li {
+            float: none;
+        }
+    }
